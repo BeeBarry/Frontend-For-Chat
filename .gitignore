@@ -1,0 +1,115 @@
+# Mac OS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Rider IDE files
+.idea/
+*.sln.iml
+.idea_modules/
+*.user
+*.suo
+
+# .NET Core
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+*.cache
+*.log
+
+# ASP.NET Core
+*.Development.json
+*.Production.json
+*.Staging.json
+appsettings.*.json
+!appsettings.json
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# NuGet
+*.nuget.props
+*.nuget.targets
+packages/
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+# User-specific files
+*.rsuser
+*.userosscache
+*.sln.docstates
+
+# .NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# Benchmark Results
+BenchmarkDotNet.Artifacts/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp_proj
+*_wpftmp.csproj
+*.tlog
+*.vspscc
+*.vssscc
+.builds
